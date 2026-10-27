@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Visualizador 3D educativo de composición corporal: qué se ve y qué no a cada nivel de grasa." />
+    <meta name="theme-color" content="#1b1a19" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Visor de composición corporal" />
+    <meta property="og:description" content="Mueve las barras y mira qué se ve y qué no a cada nivel de grasa corporal. Visor 3D educativo y gratuito." />
+    <meta property="og:locale" content="es_ES" />
+    <meta name="twitter:card" content="summary" />
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebApplication","name":"Visor de composición corporal","applicationCategory":"EducationalApplication","operatingSystem":"Web","inLanguage":"es","isAccessibleForFree":true}
+    </script>
+    <title>Visor de composición corporal</title>
+    <script type="module" crossorigin src="./assets/index-VO2kIS88.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-NsdqNw6v.css">
+  </head>
+  <body>
+    <header class="cabecera">
+      <h1><span id="titulo"></span> <span id="beta" class="insignia"></span></h1>
+      <div class="cabecera-acciones">
+        <button type="button" id="compartir" class="secundario"></button>
+        <button type="button" id="capturar" class="secundario"></button>
+        <button type="button" id="hoja" class="secundario"></button>
+        <button type="button" id="foto-hd" class="secundario destacado"></button>
+      </div>
+    </header>
+    <main class="app">
+      <section id="visor" class="visor" aria-label="Vista 3D">
+        <canvas id="lienzo"></canvas>
+        <div id="progreso" class="progreso" role="status"></div>
+        <div id="avisos" class="avisos" aria-live="polite"></div>
+        <nav id="zonas" class="zonas chips" aria-label="Zonas"></nav>
+      </section>
+      <aside class="lateral">
+        <div id="panel" class="panel"></div>
+      </aside>
+    </main>
+    <div id="accion" class="accion"></div>
+    <footer class="pie">
+      <div class="hueco-anuncio" hidden aria-label="Publicidad"></div>
+      <p id="aviso-permanente"></p>
+      <p id="aviso-provisional" class="provisional"></p>
+      <nav class="enlaces-legales">
+        <a href="legal/terminos.html">Términos</a>
+        <a href="legal/privacidad.html">Privacidad</a>
+        <a href="legal/aviso-medico.html">No es un dispositivo médico</a>
+        <a href="legal/avisos-terceros.txt">Avisos de terceros</a>
+        <a href="#" id="preferencias-privacidad">Preferencias de privacidad</a>
+      </nav>
+    </footer>
+  </body>
+</html>

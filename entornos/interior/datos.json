@@ -1,0 +1,21 @@
+{
+  "hdri": "photo_studio_loft_hall",
+  "altura_m": 1.5,
+  "radio_m": 6.5,
+  "exposicion": 1,
+  "luz": {
+    "direccion": [
+      -0.6166,
+      0.2795,
+      0.736
+    ],
+    "color": [
+      0.6921,
+      0.8573,
+      1
+    ],
+    "irradiancia": 2.578
+  },
+  "escala_fondo": 3,
+  "color_suelo": "#54413a"
+}

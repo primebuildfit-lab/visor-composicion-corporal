@@ -1,0 +1,21 @@
+{
+  "hdri": "studio_small_09",
+  "altura_m": 1.35,
+  "radio_m": 6,
+  "exposicion": 1.35,
+  "luz": {
+    "direccion": [
+      0.5824,
+      0.4227,
+      0.6944
+    ],
+    "color": [
+      0.9516,
+      0.9595,
+      1
+    ],
+    "irradiancia": 2.184
+  },
+  "escala_fondo": 3,
+  "color_suelo": "#a3a1a0"
+}

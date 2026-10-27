@@ -1,0 +1,21 @@
+{
+  "hdri": "spiaggia_di_mondello",
+  "altura_m": 1.6,
+  "radio_m": 35,
+  "exposicion": 0.9,
+  "luz": {
+    "direccion": [
+      0.6399,
+      0.4266,
+      0.6392
+    ],
+    "color": [
+      0.9585,
+      1,
+      0.8341
+    ],
+    "irradiancia": 5.497
+  },
+  "escala_fondo": 3,
+  "color_suelo": "#6b6058"
+}

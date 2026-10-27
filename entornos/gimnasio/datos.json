@@ -1,0 +1,21 @@
+{
+  "hdri": "crossfit_gym",
+  "altura_m": 1.55,
+  "radio_m": 13,
+  "exposicion": 1.1,
+  "luz": {
+    "direccion": [
+      0.2947,
+      0.717,
+      0.6317
+    ],
+    "color": [
+      1,
+      0.8651,
+      0.5342
+    ],
+    "irradiancia": 2.014
+  },
+  "escala_fondo": 3,
+  "color_suelo": "#2e3852"
+}
